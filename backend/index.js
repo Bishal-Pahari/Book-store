@@ -22,10 +22,10 @@ app.use(cors());
 //   })
 // );
 
-app.get("/", (request, response) => {
-  console.log(request);
-  return response.status(234).send("<h1>Welcome to MERN Tutorial</h1>");
-});
+// app.get("/", (request, response) => {
+//   console.log(request);
+//   return response.status(234).send("<h1>Welcome to MERN Tutorial</h1>");
+// });
 
 app.use("/books", bookRoute);
 
